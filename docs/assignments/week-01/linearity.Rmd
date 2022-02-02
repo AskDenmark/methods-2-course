@@ -17,4 +17,49 @@ $$
 
 1. Prove that $f(x) = \beta x$ is linear.
 
+$$
+f(x) = \beta x
+$$
+$$
+f(ax_1+bx_2) = \beta (ax_1+bx_2)
+$$
+$$
+f(ax_1+bx_2) = a\beta x_1 + b\beta x_2 
+$$
+$$
+f(ax_1+bx_2) = af(x_1) + bf(x_2) 
+$$
+$$
+QED
+$$
+
 2. Prove that $f(x) = \beta_0 + \beta_1 x + \beta_2 x^2$ is *not* linear. 
+
+
+
+$$
+f(x) = \beta_0 + \beta_1 x + \beta_2 x^2
+$$
+$$
+f'(x) = \beta_1 + \beta_2 *2x_2
+$$
+$$
+f''(x)=  \beta_2 *2
+$$
+since $f''(x)$ is not equal to 0 therefor it is not linear. however the linearity is not determined by the predictor $x$ but rather the coefficient $\beta$, 
+
+
+$$
+f(\beta) = \beta_0 + \beta_1 x + \beta_2 x^2
+$$
+$$
+f'(\beta) = 1 + x_1 + x^2_2
+$$
+$$
+f''(\beta)= 0
+$$
+$$
+QED
+$$
+
+
